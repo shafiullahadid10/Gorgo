@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*********************
+ header section css
+ *********************/
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+	width: 100%;
+	padding: 5px 0px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menubar ul{
+	display: inline-block;
+	margin-left: 32px;
+}
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 16px;
+}
+.logo{
+	vertical-align: middle;
+}
+.menubar ul li a{
+	color: #292640;
+	font-size: 16px;
+	font-weight: 700;
+}
+.menubar ul li a:hover{
+	color: #ff6162;
+	cursor: pointer;
+}
+.menu-btn button{
+	background-color: #ff6162;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 8px;
+}
+.menu-btn button:hover{
+	background-color: #292640; 
+	cursor: pointer;
+}
+.banner{
+	width: 100%;
+	padding: 140px 0px;
+}
+.banner-row{
+	display: flex;
+}
+.b-left .b-right{
+	flex-basis: 50%;
+}
+.b-left h1{
+    font-size: 40px;
+    line-height: 1.3;
+    color: #292640;
+    margin-bottom: 24px;
+    font-weight: 700;
+}   
+.b-left p{
+	font-size: 16px;
+	color: #a2a4a5;
+	margin-right: 70px;
+	font-weight: 300px;
+	margin-bottom: 32px;
+	line-height: 1.5;
+}
+.b-left a i{
+	height: 40px;
+	width: 40px;
+	color: #a2a4a5;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 40px;
+	border: 4px solid #a2a4a5;
+}
+.b-left a i:hover{
+	background-color: #292640;
+	border-color: #292640;
+	color: white;
+}
+/*********************
+ projects section css
+ *********************/
+.project{
+	width: 100%;
+	padding: 60px 0px;
+}
+.section-title{
+	text-align: center;
+
+}
+.section-title h2{
+	font-size: 40px;
+	font-weight: 78px;
+	color: #292640;
+	margin-bottom: 10px;
+}
+.section-title p{
+	font-size: 16px;
+	color: #a2a4a5;
+	font-weight: 350px;
+	margin-bottom: 32px;
+    font-style: italic;
+
+}
+.project-gallery{
+	display: flex;
+	justify-content: space-evenly;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+.p-item{
+	flex-basis: 25%;
+	text-align: center;
+}
+.p-item img{
+	margin-bottom: 16px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+.line{
+	height: 80px;
+	width: 4px;
+	background-color: #a2a4a5;
+	margin: 60px auto;
+
+}
+.p-item p{
+	font-weight: 700;
+	color: #43454E;
+	font-size: 18px;
+}
+/*********************
+features section css
+ *********************/
+.features{
+	width: 100%;
+	padding-bottom: 80px;
+}
+ .f-item-row{
+ 	display: grid;
+ 	grid-template-columns: auto auto auto;
+ }
+ .f-item{
+    background-color: #F5F5F5;
+    margin: 16px;
+    padding: 32px 16px;
+    text-align: center;
+    border-radius: 6px;
+}
+.f-item i{
+	height: 60px;
+    width: 60px;
+    background: white;
+    color: #ff6162;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+}
+.f-item h4{
+	font-size: 18px;
+    color: #292640;
+    margin: 16px 0;
+}
+.f-item p{
+	font-size: 16px;
+	color: #757575;
+}
+.footer-title{
+	text-align: center;
+    background-color: #292640;
+    padding: 80px 60px;
+    border-radius: 8px;
+    color: white;
+}
+.footer-title h1{
+	font-weight: 700;
+	line-height: 1.3;
+	margin-bottom: 16px;
+}
+.footer{
+	background-color: #292640;
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.f-content{
+	text-align: center;
+}
+.f-content h1{
+	color: white;
+	font-size: 56px;
+	margin-bottom: 32px;
+	line-height: 1.3;
+}
+.f-content .menu-btn button{
+	margin-bottom: 32px;
+}
+.f-content .menu-btn button:hover{
+	background-color: white;
+	color: #292640;
+}
